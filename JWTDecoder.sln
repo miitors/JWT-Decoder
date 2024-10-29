@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTDecoder", "JWTDecoder\JWTDecoder.csproj", "{541ECF57-4C0D-4385-B2E6-F7BE27F7C637}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTDecoder.Xamarin", "JWTDecoder.Xamarin\JWTDecoder.Xamarin.csproj", "{0B7C7FBA-DF62-4C9C-AB6E-80E763A86B0A}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTDecoder", "JWTDecoder\JWTDecoder.csproj", "{541ECF57-4C0D-4385-B2E6-F7BE27F7C637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +14,11 @@ Global
 		{541ECF57-4C0D-4385-B2E6-F7BE27F7C637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541ECF57-4C0D-4385-B2E6-F7BE27F7C637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541ECF57-4C0D-4385-B2E6-F7BE27F7C637}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B7C7FBA-DF62-4C9C-AB6E-80E763A86B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B7C7FBA-DF62-4C9C-AB6E-80E763A86B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B7C7FBA-DF62-4C9C-AB6E-80E763A86B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B7C7FBA-DF62-4C9C-AB6E-80E763A86B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C1D20A-A623-4BEE-8C32-F49CAD336466}
 	EndGlobalSection
 EndGlobal

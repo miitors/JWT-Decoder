@@ -1,22 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackOnBuild>true</PackOnBuild>
-    <Authors>Dale Myszewski</Authors>
-    <Description>Sometimes you just need to decode the payload of a JWT Token in a C# client. This library aims to do just that.</Description>
-    <ReleaseVersion>0.9.3</ReleaseVersion>
-    <SynchReleaseVersion>false</SynchReleaseVersion>
-    <PackageId>JWTDecoder</PackageId>
-    <PackageVersion>0.9.3</PackageVersion>
-    <PackageProjectUrl>https://github.com/greenygh0st/JWT-Decoder</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
+<PropertyGroup>
+	<AssemblyVersion>0.9.3</AssemblyVersion>
+	<Title>JWT-Decoder</Title>
+	<Authors>Dale Myszewski</Authors>
+	<Description>Sometimes you just need to decode the payload of a JWT Token in a C# client. This library aims to do just that.</Description>
+	<PackageId>JWTDecoder</PackageId>
+	<PackageProjectUrl>https://github.com/miitors/JWT-Decoder</PackageProjectUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<AssemblyTitle>$(Title)</AssemblyTitle>
+	<VersionPrefix>$(AssemblyVersion)</VersionPrefix>
+</PropertyGroup>
+	
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Algorithms\" />
-    <Folder Include="Helpers\" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>

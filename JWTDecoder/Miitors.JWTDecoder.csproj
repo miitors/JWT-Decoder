@@ -11,7 +11,7 @@
 	<Title>JWT-Decoder</Title>
 	<Authors>Dale Myszewski</Authors>
 	<Description>Sometimes you just need to decode the payload of a JWT Token in a C# client. This library aims to do just that.</Description>
-	<PackageId>JWTDecoder</PackageId>
+	<PackageId>Miitors.JWTDecoder</PackageId>
 	<PackageProjectUrl>https://github.com/miitors/JWT-Decoder</PackageProjectUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<AssemblyTitle>$(Title)</AssemblyTitle>
